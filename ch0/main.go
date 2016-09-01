@@ -14,8 +14,8 @@ func main() {
 
 	for j := ny - 1; j >= 0; j-- {
 		for i := 0; i < nx; i++ {
-			rpct := (float64(i) / float64(nx))
-			gpct := (float64(j) / float64(ny))
+			rpct := float64(i) / float64(nx)
+			gpct := float64(j) / float64(ny)
 			bpct := .2
 
 			r := int(rpct * 255)
