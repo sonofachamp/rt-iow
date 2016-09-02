@@ -3,4 +3,4 @@ language: go
 go:
   - 1.7
 
-install: go get -v -t github.com/sonofachamp/rt-iow
+install: go get -v -t github.com/sonofachamp/rt-iow/ch0
