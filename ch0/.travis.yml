@@ -1,6 +1,0 @@
-language: go
-
-go:
-  - tip
-
-install: go get -v -t github.com/sonofachamp/rt-iow
