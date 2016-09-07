@@ -3,4 +3,10 @@ language: go
 go:
   - 1.7
 
-install: go get -v -t github.com/sonofachamp/rt-iow/ch0
+install: go get -v -t github.com/sonofachamp/rt-iow/rt
+
+script:
+  - go test -v ./rt/... && go build ./rt
+  - go build ch1/main.go
+  - go build ch2/main.go
+  - go build ch3/main.go
